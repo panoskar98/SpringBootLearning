@@ -9,4 +9,9 @@ public class FunRestController {
     public String sayHello() {
         return "Hello World";
     }
+
+    @GetMapping("/check-dev-tools")
+    public String check() {
+        return "dev tools auto compile worked!";
+    }
 }
